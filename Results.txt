@@ -1,0 +1,58 @@
+-- List all forwards
+
+{ "name": "Arjun Mehta", 
+    "goals": 45, 
+    "assists": 28 
+}
+{ "name": "Meera Kapoor",
+  "goals": 32,
+  "assists": 18 
+}
+
+Top 3 players who scored highest goals
+
+{ "name": "Arjun Mehta", 
+  "goals": 45
+}
+{ "name": "Meera Kapoor", 
+  "goals": 32 
+}
+{ "name": "Sana Qureshi", 
+  "goals": 20 
+}
+
+Players with more than 20 assists
+
+{ "name": "Arjun Mehta", 
+  "assists": 28
+}
+{ "name": "Sana Qureshi",
+  "assists": 34 
+}
+
+
+Players older than 25 years
+
+{ "name": "Kabir Nair", 
+  "dob": ISODate("1996-07-21T00:00:00Z")
+}
+{ "name": "Rohit Sen", 
+  "dob": ISODate("1998-11-10T00:00:00Z") 
+}
+
+Players who scored more goals than assists
+ 
+{ "name": "Arjun Mehta", 
+  "goals": 45, 
+  "assists": 28 
+}
+{ "name": "Kabir Nair", 
+  "goals": 5, 
+  "assists": 12 
+}
+{ "name": "Meera Kapoor", 
+  "goals": 32, 
+  "assists": 18
+}
+
+

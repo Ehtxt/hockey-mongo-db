@@ -1,0 +1,38 @@
+// List all forwards
+
+db.hockeyPlayers.find(
+  { position: "Forward" },
+  { _id: 0, name: 1, goals: 1, assists: 1 }
+)
+
+
+// Top 3 players who scored highest goals
+
+db.hockeyPlayers.find(
+  {},
+  { _id: 0, name: 1, goals: 1 }
+).sort({ goals: -1 }).limit(3)
+
+
+// Players with more than 20 assists
+
+db.hockeyPlayers.find(
+  { assists: { $gte: 20 } },
+  { _id: 0, name: 1, assists: 1 }
+)
+
+
+// Players older than 25 years
+
+db.hockeyPlayers.find(
+  { dob: { $lte: ISODate("2000-09-14T00:00:00Z") } },
+  { _id: 0, name: 1, dob: 1 }
+)
+
+
+// Finding players who scored more goals than the assists
+
+db.hockeyPlayers.find(
+  { $expr: { $gt: ["$goals", "$assists"] } },
+  { _id: 0, name: 1, goals: 1, assists: 1 }
+)

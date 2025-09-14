@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "68c705e92ed8cfdd826f0998"
+  },
+  "number": 9,
+  "name": "Arjun Mehta",
+  "position": "Forward",
+  "country": "India",
+  "dob": {
+    "$date": "1999-03-15T00:00:00.000Z"
+  },
+  "goals": 45,
+  "assists": 28
+},
+{
+  "_id": {
+    "$oid": "68c705e92ed8cfdd826f0999"
+  },
+  "number": 4,
+  "name": "Kabir Nair",
+  "position": "Defender",
+  "country": "India",
+  "dob": {
+    "$date": "1996-07-21T00:00:00.000Z"
+  },
+  "goals": 5,
+  "assists": 12
+},
+{
+  "_id": {
+    "$oid": "68c705e92ed8cfdd826f099a"
+  },
+  "number": 1,
+  "name": "Rohit Sen",
+  "position": "Goalkeeper",
+  "country": "India",
+  "dob": {
+    "$date": "1998-11-10T00:00:00.000Z"
+  },
+  "goals": 0,
+  "assists": 3
+},
+{
+  "_id": {
+    "$oid": "68c705e92ed8cfdd826f099b"
+  },
+  "number": 7,
+  "name": "Sana Qureshi",
+  "position": "Midfielder",
+  "country": "India",
+  "dob": {
+    "$date": "2000-01-25T00:00:00.000Z"
+  },
+  "goals": 20,
+  "assists": 34
+},
+{
+  "_id": {
+    "$oid": "68c705e92ed8cfdd826f099c"
+  },
+  "number": 11,
+  "name": "Meera Kapoor",
+  "position": "Forward",
+  "country": "India",
+  "dob": {
+    "$date": "2002-05-05T00:00:00.000Z"
+  },
+  "goals": 32,
+  "assists": 18
+}]
